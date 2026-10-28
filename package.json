@@ -1,0 +1,26 @@
+{
+  "name": "@multihopper/agent-sdk",
+  "version": "1.0.0",
+  "description": "MultiHopper TypeScript SDK, CLI & AI Agent MCP Server for Private Multi-Hop Routing on Solana",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "multihopper": "bin/cli.js",
+    "multihopper-mcp": "bin/mcp-server.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "solana",
+    "multihopper",
+    "privacy",
+    "token-2022",
+    "mcp",
+    "ai-agent",
+    "transfer-hook",
+    "bounty"
+  ],
+  "author": "TassioSales <tassiolucian.ljs@gmail.com>",
+  "license": "MIT"
+}
